@@ -31,10 +31,47 @@
 	<dependencies>
 
 		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+			<version>2.7</version>
+		</dependency>
+
+		<!-- 阿里大于短信配置 -->
+		<!-- <dependency>
+			<groupId>com.taobao</groupId>
+			<artifactId>taobao-sdk-java-auto</artifactId>
+			<version>1.0</version>
+		</dependency> -->
+		
+		<!-- <dependency>
+			<groupId>com.aliyun</groupId>
+			<artifactId>core</artifactId>
+			<version>3.3.1</version>
+		</dependency>
+		<dependency>
+			<groupId>com.aliyun</groupId>
+			<artifactId>dysmsapi</artifactId>
+			<version>1.0.0</version>
+		</dependency> -->
+		
+		<dependency>
+			<groupId>jstl</groupId>
+			<artifactId>jstl</artifactId>
+			<version>1.2</version>
+		</dependency>
+
+		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<version>4.12</version>
 			<scope>test</scope>
+		</dependency>
+
+		<!-- 邮件发送 -->
+		<dependency>
+			<groupId>com.sun.mail</groupId>
+			<artifactId>javax.mail</artifactId>
+			<version>1.5.6</version>
 		</dependency>
 
 		<!-- 文件上传 -->

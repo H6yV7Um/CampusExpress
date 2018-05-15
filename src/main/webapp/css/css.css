@@ -1,0 +1,21 @@
+@charset "utf-8";
+.star li{
+	float:left;
+	width:25px;
+	background:url('sprit1.png') no-repeat 0 -465px;
+}
+.star li.on{
+	float:left;
+	width:25px;
+	background-position:0 -415px;
+}
+.star li{
+	float:left;
+	width:25px;
+	cursor:pointer;
+}
+.star li.off{
+	float:left;
+	width:25px;
+	background-position:0 -490px;
+}
